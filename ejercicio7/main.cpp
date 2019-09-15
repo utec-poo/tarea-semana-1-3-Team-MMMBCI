@@ -1,13 +1,14 @@
 #include <iostream>
-#include "Tipos.h"
 using namespace std;
 
-int main() {
+int main(){
+  int numero, i;
+  
+  cout << "Ingrese la cantidad de asteriscos: \n";
+  cin >> numero;
 
-entero numero;
-cin >> numero;
-
-// ToDO
-// implemente el algoritmo.
+  for (i=1; i<=numero; i++){
+    cout << "*";
+  }
   return 0;
 }
